@@ -5,7 +5,8 @@ function startIntro(){
     steps: [
       {
         element: "#tourReportFinSemana",
-        intro: 'Acá puedes reportar los fines de semana que has trabajado, para que tengas días compensatorios.' +
+        intro: '<div style="width: 400px">' +
+          'Acá puedes reportar los fines de semana que has trabajado, para que tengas días compensatorios.' +
           'Las reglas para llenar esta solicitud son las siguientes:' +
           '<ul>' +
           '<li>Ingresar la “Fecha de inicio” y la “Fecha final” que has trabajado. No se podrán reportar días en futuro.</li>' +
@@ -15,7 +16,8 @@ function startIntro(){
           '</ul>' +
           'Después de llenar todos los campos, haz click en el botón “Enviar para Aprobación” para que su jefe directo pueda aprobar su solicitud.<br>' +
           'El botón “Cancelar” elimina la creación de tu solicitud en el sistema.<br>' +
-          'Una vez aprobada la solicitud el número de días trabajados será añadido al total de días compensatorios.',
+          'Una vez aprobada la solicitud el número de días trabajados será añadido al total de días compensatorios.' +
+          '</div>',
         position: 'right'
       },
       {
@@ -33,7 +35,8 @@ function startIntro(){
       },
       {
         element: '#tourIndexReportFinSem',
-        intro: 'Acá puedes reportar los fines de semana que has trabajado, para que tengas días compensatorios.<br>' +
+        intro:  '<div style="width: 400px">' +
+          'Acá puedes reportar los fines de semana que has trabajado, para que tengas días compensatorios.<br>' +
           'Las reglas para llenar esta solicitud son las siguientes:<br>' +
           '<ul>' +
           '<li>Ingresar la “Fecha de inicio” y la “Fecha final” que has trabajado. No se podrán reportar días en futuro. <br>' +
@@ -44,7 +47,7 @@ function startIntro(){
           'Después de llenar todos los campos, haz click en el botón “Enviar para Aprobación” para que su jefe directo pueda aprobar su solicitud.<br>' +
           'El botón “Cancelar” elimina la creación de tu solicitud en el sistema.<br>' +
           'Una vez aprobada la solicitud el número de días trabajados será añadido al total de días compensatorios.<br>' +
-          '"',
+          '</div>',
         position: 'center'
       },
       {
