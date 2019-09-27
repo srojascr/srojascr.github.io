@@ -1,6 +1,6 @@
 var intro = introJs();
 
-function startIntro(){
+function startIntroHome(){
   intro.setOptions({
     steps: [
       {

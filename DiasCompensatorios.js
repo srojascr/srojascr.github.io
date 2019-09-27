@@ -1,6 +1,6 @@
 var intro = introJs();
 
-function startIntro(){
+function startIntroDiasCompensatorios(){
   intro.setOptions({
     steps: [
       {
